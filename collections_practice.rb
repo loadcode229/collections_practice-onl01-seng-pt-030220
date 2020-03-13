@@ -18,8 +18,7 @@ def swap_elements(array)
 end
 
 def reverse_array(array)
-  array.reverse
-  end
+  array.reverseS
 end
 
 def kesha_maker(array)
@@ -34,7 +33,6 @@ def sum_array(array)
   array.each do |a,b|
     array.inject(0) { |a,b|, a + b}
   end
-end
 end
 
 def add_s(array)
