@@ -29,7 +29,10 @@ def kesha_maker(array)
 end
 
 def find_a(array)
-  
+  array.find do |char|
+    char = "a"
+    char
+  end
 end
 
 def sum_array(array)
