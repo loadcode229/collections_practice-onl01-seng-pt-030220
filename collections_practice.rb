@@ -30,7 +30,8 @@ def find_a(array)
 end
 
 def sum_array(array)
-  array.sort do |a,b|
+  array.inject do |sum, num|
+    sum + num
 end
 
 def add_s(array)
