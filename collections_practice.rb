@@ -46,6 +46,7 @@ def add_s(array)
       element[element.length] = "s"
       element
     end
+    end
   end
 end
 end
