@@ -13,4 +13,5 @@ end
 def sort_array_char_count(array)
   array.sort.length do |a,b|
     a <=> b
+  end
 end
