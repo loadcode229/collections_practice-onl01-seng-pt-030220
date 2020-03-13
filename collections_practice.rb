@@ -30,7 +30,6 @@ end
 
 def find_a(array)
   array.sort do |char|
-    char.find("a")
   end
 end
 
