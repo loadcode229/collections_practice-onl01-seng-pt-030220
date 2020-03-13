@@ -23,12 +23,13 @@ end
 
 def kesha_maker(array)
   array.select do |word|
-    word.chr == "a"
-  end
+    word["s"] == "$"
 end
 
 def find_a(array)
-  
+  array.select do |word|
+    word.chr == "a"
+  end
 end
 
 def sum_array(array)
