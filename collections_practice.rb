@@ -18,8 +18,7 @@ def swap_elements(array)
 end
 
 def reverse_array(array)
-  array.reverse do |a,b|
-    a <=> b
+  array.reverse
   end
 end
 
