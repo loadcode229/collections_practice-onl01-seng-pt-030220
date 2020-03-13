@@ -33,9 +33,8 @@ def find_a(array)
 end
 
 def sum_array(array)
-  i = 0
-  sum = 0
-  array.length
+  array.sort do |a,b|
+    a + b
 end
 
 def add_s(array)
