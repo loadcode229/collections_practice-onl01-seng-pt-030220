@@ -32,7 +32,7 @@ end
 
 def sum_array(array)
   array.each do |a,b|
-    array.inject(0) {
+    array.inject(0) { |a,b|, a + b}
 end
 
 def add_s(array)
