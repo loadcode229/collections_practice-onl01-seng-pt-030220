@@ -11,7 +11,6 @@ end
 def sort_array_char_count(array)
   array.sort {|a,b| a.length <=> b.length}
 end
-end
 
 def swap_elements(array)
   array[1], array[2] = array[2], array[1]
@@ -20,6 +19,7 @@ end
 
 def reverse_array(array)
   array.reverse
+  end
 end
 
 def kesha_maker(array)
@@ -31,8 +31,8 @@ def find_a(array)
 end
 
 def sum_array(array)
-  array.each do |a,b|
-    array.inject(0) { |a,b|, a + b}
+  array.sort do |a,b|
+    a + b
   end
 end
 
