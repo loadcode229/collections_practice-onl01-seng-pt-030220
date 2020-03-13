@@ -33,6 +33,7 @@ def sum_array(array)
   array.sort do |a,b|
     array.inject(0) {|a, b|, a + b}
   end
+  end
 end
 
 def add_s(array)
