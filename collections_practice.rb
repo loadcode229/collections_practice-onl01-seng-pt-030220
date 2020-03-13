@@ -14,8 +14,8 @@ def sort_array_char_count(array)
   array.sort {|a,b| a.length <=> b.length}
 end
 
-def swap_elements_from_to(array, index, destination_index)
-  a
+def swap_elements(array)
+  
 end
 
 def reverse_array(array)
@@ -23,3 +23,32 @@ def reverse_array(array)
     a <=> b
   end
 end
+
+def kesha_maker(array)
+  
+end
+
+def find_a(array)
+  
+end
+
+def sum_array(array)
+  i = 0
+  sum = 0
+  array.length
+end
+
+def add_s(array)
+  
+end
+
+
+
+
+
+
+
+
+
+
+
