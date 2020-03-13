@@ -35,6 +35,7 @@ end
 def sum_array(array)
   array.sort do |a,b|
     a + b
+  end
 end
 
 def add_s(array)
