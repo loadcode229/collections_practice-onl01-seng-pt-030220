@@ -29,9 +29,8 @@ def kesha_maker(array)
 end
 
 def find_a(array)
-  array.find do |char|
-    char = "a"
-    char
+  array.sort do |char|
+    char.find("a")
   end
 end
 
